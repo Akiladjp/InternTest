@@ -1,4 +1,5 @@
 import React from 'react'
+import { Test } from './Test'
 
 export const StudentsInfo = () => {
   return (
@@ -17,6 +18,7 @@ export const StudentsInfo = () => {
         <div className="flex justify-end mt-4">
             <button value="Submit" className="bg-[#1B91FF] text-white font-bold rounded-md py-2 px-6"> Submit </button>
         </div>
+        {/* <Test name="Canada" /> */}
     </div>
   )
 }

@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import { StudentList } from './pages/StudentList';
 import { StudentResgistration } from './pages/StudentResgistration';
 import { Test } from './components/Test';
+import { UpdateStudent } from './pages/UpdateStudent';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path='/' element={<StudentList/>} />
         <Route path='/register' element={<StudentResgistration/>} />
         <Route path='/test' element={<Test/>} />
+        <Route path='/update/:id' element={<UpdateStudent/>} />
       </Routes>
     </div>
   );
